@@ -163,3 +163,41 @@ body{
         to{left: 0px;}
     }
 }
+@media only screen and (max-width:600px){
+    #MyNameLogo{
+        margin-top: 20px;
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    #name-logo a{
+        position: relative;
+        text-decoration: none;
+        color: white;
+        font-size: 29px;
+        margin-top: 25px;
+        margin-left: 60px;
+        animation: name-slide 1.5s ease-in-out 1;
+    }
+    #main-name{
+        color: white;
+        position: absolute;
+        font-size: 25px;
+        margin-top: 550px;
+        margin-left: 5px;
+        animation: resume 1.5s ease-in-out ;
+    }
+    #n-sirname{
+        font-size: 25px;
+        margin-left: 200px;
+        margin-top: 550px;
+        animation: sirname 1.8s ease-in-out;
+     }
+     #web-info{
+        color: white;
+        position: absolute;
+        font-size: 16px;
+        margin-left: 3px;
+        margin-top: 580px;
+        animation:  webinfo 1.8s ease-in-out 1;
+    }
+}
