@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body{
+    background-image: url("background02.jpg");
+
+}
+#name-logo{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+#name-logo a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 1300px;
+    animation: resume 1.5s ease-in-out ;
+}
+@keyframes resume{
+    from{right: -200px;}
+    to{right: 0px;}
+}
+#MyNameLogo{
+    z-index: 1;
+    position: relative;
+    font-family: Arial;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 90px;
+    color: transparent;
+    -webkit-text-stroke: 1px #9F9AD0;
+    background: url("back.0.png");
+    background-position: 0 0;
+    -webkit-background-clip:text;   
+    animation:  name_slide 1.5s ease-in-out 1, logobgmove 20s linear infinite;
+}
+@keyframes name_slide{
+    from{left: -180px;}
+    to{left: 0px;}
+}
+@keyframes logobgmove{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+#img-slider{
+    position: absolute;
+    background-color: #555D9E;
+    height: 100vh;
+    width: 50%;
+    animation: imgslider 1s ease-in-out;
+}
+#main-name{
+    color: white;
+    position: absolute;
+    font-size: 90px;
+    margin-top: 410px;
+    margin-left: 280px;
+    animation:  name-slide 1.5s ease-in-out 1;
+}
+@keyframes name-slide{
+    from{left: -220px;}
+    to{left: 0px;}
+}
+#n-sirname{
+    color: white;
+    position: absolute;
+   font-size: 90px;
+   margin-left: 980px;
+   margin-top: 410px;
+   animation: sirname 1.5s ease-in-out;
+}
+@keyframes sirname {
+    from{margin-left: 1100px;}
+ 
+}
+@keyframes name-slide{
+    from{left: -220px;}
+    to{left: 0px;}
+}
+@keyframes imgslider{
+    from{width: 40%;}
+    to{width: 50%;}
+}
+#web-info{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 510px;
+    animation:  name-slide 1.8s ease-in-out 1;
+}
+/*-------------------------------CSS FOR SMALL SCREEN--------------------------------------*/
+
+@media only screen and (max-width:600px){
+    #img-slider{
+        position: absolute;
+        background-color: #555D9E;
+        height: 150vh;
+        width: 50%;
+        animation: imgslider 1s ease-in-out;
+    }
+    @keyframes imgslider{
+        from{width: 30%;}
+        to{width: 50%;}
+    }
+    #MyNameLogo{
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    #name-logo a{
+        position: relative;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        margin-top: 18px;
+        margin-left: 170px;
+        animation: name-slide 1.5s ease-in-out 1;
+    }
+    @keyframes name-slide{
+        from{right: -180px;}
+        to{right: 0px;}
+    }
+    #main-name{
+        color: white;
+        position: absolute;
+        font-size: 35px;
+        margin-top: 550px;
+        margin-left: 30px;
+        animation: resume 1.5s ease-in-out ;
+    }
+    @keyframes resume{
+        from{left: -100px;}
+        to{left: 0px;}
+    }
+    #n-sirname{
+       font-size: 35px;
+       margin-left: 310px;
+       margin-top: 550px;
+       animation: sirname 1.8s ease-in-out;
+    }
+    @keyframes sirname {
+        from{margin-left: 400px;}
+     
+    }
+    #web-info{
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        margin-left: 35px;
+        margin-top: 600px;
+        animation:  webinfo 1.8s ease-in-out 1;
+    }
+    @keyframes webinfo{
+        from{left: -100px;}
+        to{left: 0px;}
+    }
+}
