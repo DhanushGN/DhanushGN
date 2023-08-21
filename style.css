@@ -208,7 +208,7 @@ body{
         animation: imgslider 1s ease-in-out;
     }
 }
-@media only screen and (max-width:300px){
+@media only screen and (max-width:350px){
     #MyNameLogo{
         margin-top: 20px;
         font-size: 35px;
@@ -249,7 +249,7 @@ body{
         position: absolute;
         background-color: #555D9E;
         height: 113vh;
-        width: 55%;
+        width: 56%;
         animation: imgslider 1s ease-in-out;
     }
 }
