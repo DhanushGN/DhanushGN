@@ -61,8 +61,8 @@ body{
     color: white;
     position: absolute;
     font-size: 90px;
-    margin-top: 410px;
-    margin-left: 280px;
+    margin-top: 500px;
+    margin-left: 380px;
     animation:  name-slide 1.5s ease-in-out 1;
 }
 @keyframes name-slide{
@@ -73,8 +73,8 @@ body{
     color: white;
     position: absolute;
    font-size: 90px;
-   margin-left: 980px;
-   margin-top: 410px;
+   margin-left: 1080px;
+   margin-top: 500px;
    animation: sirname 1.5s ease-in-out;
 }
 @keyframes sirname {
@@ -93,12 +93,12 @@ body{
     color: white;
     position: absolute;
     font-size: 30px;
-    margin-left: 300px;
-    margin-top: 510px;
+    margin-left: 400px;
+    margin-top: 600px;
     animation:  name-slide 1.8s ease-in-out 1;
 }
 article{
-    margin-top: 955px;
+    margin-top: 1055px;
     position: absolute;
     width: 100%;
     height: 700px;
@@ -203,7 +203,7 @@ article h3{
     #img-slider{
         position: absolute;
         background-color: #555D9E;
-        height: 150vh;
+        height: 180vh;
         width: 50%;
         animation: imgslider 1s ease-in-out;
     }
@@ -357,7 +357,7 @@ article h3{
     article{
         margin-top: 700px;
         width: 100%;
-        height: 900px;
+        height: 1000px;
         z-index: 2;
         background-color: white;
         display:block;
