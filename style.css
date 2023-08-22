@@ -97,6 +97,106 @@ body{
     margin-top: 510px;
     animation:  name-slide 1.8s ease-in-out 1;
 }
+article{
+    margin-top: 955px;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    z-index: 3;
+    background-color: white;
+    display: flex;
+}
+.about-info{
+     width: 50%;
+     height: auto;
+     margin-left: 70px;
+}
+.skills-info{
+    width: 50%;
+   height: auto;;
+}
+article h1{
+    font-size: 45px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+article hr{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+article p{
+    margin-top: 15px;
+    font-size: 22px;
+    margin-left: 90px;
+}
+article h3{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+#edhu-info{
+    font-size: 21px;
+    margin-top: 5px;
+}
+.skills-info{
+    margin-left: 250px;
+}
+.skills-info h1{
+    margin-left: 70px;
+    font-size: 45px;
+    margin-top: 105px;
+    margin-left: 80px;
+}
+.skills-info  hr{
+    margin-left: 60px;
+    margin-right: 400px;
+}
+.skills-info p{
+    margin-left: 280px;
+    font-size: 20px;
+}
+.skillslist{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.h3-skills{
+    font-size: 25px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.bar{
+    margin-left: 5px;
+    background: #dedde2;
+    display: block;
+    height: 25px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25,.8,.25);
+}
+.bar:hover{
+    box-shadow: 0 10px 18px #958CBB;
+}
+.bar span{
+    height: 25px;
+    float: left;
+    background: #A8A9E9;
+}
+.python{
+    width: 75%;
+}
+.sql{
+    width: 60%;
+}
+.web{
+    width: 75%;
+}
+.git{
+    width: 80%;
+}
+.ms{
+    width: 70%;
+}
 /*-------------------------------CSS FOR SMALL SCREEN--------------------------------------*/
 
 @media only screen and (max-width:600px){
@@ -162,6 +262,53 @@ body{
         from{left: -100px;}
         to{left: 0px;}
     }
+    article{
+        margin-top: 1150px;
+    }
+    .about-info{
+        width: 50%;
+        height: auto;
+        margin-left: 1px;
+   }
+    article h1{
+        font-size: 45px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    article hr{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    article p{
+        margin-top: 15px;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    article h3{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .bar{
+        margin-left: 5px;
+        height: 25px;
+        width: 180px;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all 0.3s cubic-bezier(.25,.8,.25);
+    }
+    .skills-info{
+        margin-left: 8px;
+    }
+    .skillsinfo h1{
+        font-size: 45px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .skills-info  hr{
+        margin-left: 70px;
+        margin-right: 1px;
+    }
 }
 @media only screen and (max-width:400px){
     #MyNameLogo{
@@ -207,4 +354,63 @@ body{
         width: 52%;
         animation: imgslider 1s ease-in-out;
     }
+    article{
+        width: 100%;
+        height: 900px;
+        z-index: 2;
+        background-color: white;
+        display:block;
+    }
+    .about-info{
+        width: 100%;
+        height: auto;
+        margin-left: 1px;
+   }
+   .skills-info{
+    width: 100%;
+   height: auto;;
+}
+    .bar{
+        margin-left: 5px;
+        height: 20px;
+        width: 250px;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all 0.3s cubic-bezier(.25,.8,.25);
+    }
+    .skillsinfo h1{
+        font-size: 33px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .h3-skills{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-bottom: 8px;
+        margin-top: 10px;
+    }
+    .about-info h1{
+        font-size: 33px;
+    }
+    .about-info p{
+        margin-top: 15px;
+        font-size: 20px;
+        margin-left: 8px;
+    }
+    .about-info h3{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .skillslist{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .skills-info{
+        margin-left:5px;
+    }
+    .skills-info  hr{
+        margin-left: 10px;
+    }
+ 
 }
