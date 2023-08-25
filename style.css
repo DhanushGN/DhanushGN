@@ -62,7 +62,7 @@ body{
     position: absolute;
     font-size: 90px;
     margin-top: 500px;
-    margin-left: 380px;
+    margin-left: 290px;
     animation:  name-slide 1.5s ease-in-out 1;
 }
 @keyframes name-slide{
@@ -73,7 +73,7 @@ body{
     color: white;
     position: absolute;
    font-size: 90px;
-   margin-left: 1080px;
+   margin-left: 960px;
    margin-top: 500px;
    animation: sirname 1.5s ease-in-out;
 }
@@ -93,7 +93,7 @@ body{
     color: white;
     position: absolute;
     font-size: 30px;
-    margin-left: 400px;
+    margin-left: 300px;
     margin-top: 600px;
     animation:  name-slide 1.8s ease-in-out 1;
 }
